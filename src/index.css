@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #000300;
+}
+
+.hero-height{
+    min-height: calc(100vh - 100px);
+} 
+
+.flow-content--0 > * + *  {
+	margin-top: 0 !important;
+}
+.flow-content--s > * + *  {
+	margin-top: .5rem !important;
+}
+.flow-content--m > * + *  {
+	margin-top: 1rem !important;
+}
+.flow-content--xm > * + *  {
+	margin-top: 1.5rem !important;
+}
+.flow-content--l > * + *  {
+	margin-top: 3rem !important;
+}
+.flow-content--xl > * + *  {
+	margin-top: 3.5rem !important;
+}
